@@ -1,0 +1,11 @@
+{application,loadtest,
+             [{description,"My Awesome Web Framework"},
+              {vsn,"0.0.1"},
+              {modules,[loadtest_custom_filters,loadtest_custom_tags,
+                        loadtest_incoming_mail_controller,
+                        loadtest_outgoing_mail_controller,
+                        loadtest_test_controller,loadtest_view_lib_tags,
+                        loadtest_view_test_index_html]},
+              {registered,[]},
+              {applications,[kernel,stdlib,crypto,boss]},
+              {env,[]}]}.
