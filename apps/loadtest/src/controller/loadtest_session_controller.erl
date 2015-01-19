@@ -1,4 +1,4 @@
--module(loadtest_test_controller, [Req]).
+-module(loadtest_session_controller, [Req, SessionId]).
 -compile(export_all).
 
 -default_action(index).
